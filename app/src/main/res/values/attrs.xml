@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Kawaii_LoadingView">
+        <attr name="half_BlockWidth" format="dimension" />
+        <attr name="blockInterval" format="dimension" />
+        <attr name="initPosition" format="integer" />
+        <attr name="isClock_Wise" format="boolean" />
+        <attr name="lineNumber" format="integer"  />
+        <attr name="moveSpeed" format="integer"  />
+        <attr name="blockColor" format="color"  />
+        <attr name="moveBlock_Angle" format="float"  />
+        <attr name="fixBlock_Angle" format="float"  />
+        <attr name="move_Interpolator" format="reference"  />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="scut.carson_ho.view_testdemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <scut.carson_ho.kawaii_loadingview.Kawaii_LoadingView
+            android:id="@+id/Kawaii_LoadingView"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            android:background="#FFCCFF"
+            app:blockColor="#ffffff"
+
+            app:lineNumber="3"
+            app:fixBlock_Angle="5"
+            app:moveBlock_Angle="20"
+
+            app:blockInterval="8dp"
+            app:half_BlockWidth="15dp"
+            app:initPosition="0"
+
+            app:isClock_Wise="false"
+            app:moveSpeed="500"
+            app:move_Interpolator="@android:anim/bounce_interpolator"
+            />
+
+        <scut.carson_ho.view_testdemo.Loading
+        android:id="@+id/loadingView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="开始动画" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="停止动画" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
