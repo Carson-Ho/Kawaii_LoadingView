@@ -1,5 +1,5 @@
 # Kawaii_LoadingView
->添加英文文档
+>[English Document](https://github.com/Carson-Ho/Kawaii_LoadingView/blob/master/README-en.md)
 - 作者：Carson_Ho
 - 概述
 
